@@ -8,7 +8,7 @@ import menuRoutes from './routes/api/index.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 7002;
+const PORT = process.env.PORT || 7003;
 
 // Middleware
 app.use(cors());
